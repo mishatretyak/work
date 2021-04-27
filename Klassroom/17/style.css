@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #c7c7c7;
+    font-family: arial;
+    font-size: 18px;
+    color: #555;
+}
+
+ul {
+    width: 90%;
+    height: 200px;
+    margin: 10px auto;
+    list-style-type: none;
+    background-color: #face00;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center; */
+    flex-wrap: wrap;
+
+
+
+}
+
+li {
+    padding: 15px;
+    /* margin: 5px; */
+    border: solid black 1px;
+    border-radius: 5px;
+    background-color: #fcf;
+    flex-grow: 1;
+    flex-basis: 300px;
+}

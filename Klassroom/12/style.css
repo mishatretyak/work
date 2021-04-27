@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+div{
+    width: 250px;
+    height: 300px;
+    overflow: hidden;
+    
+    
+}
+.block3{
+    background-color: #c7c7c7;
+    transform: rotate(-60deg);
+   
+}
+.block2{
+    transform: rotate(120deg);
+}
+.block1{
+    margin: 50px auto;
+    transform: rotate(60deg);
+}
+img{
+    transform: rotate(-120deg) translatey(-15px);
+    height: 100%;
+}
+.block1:hover img{
+    transform: scale(1.2) rotate(-120deg);
+
+}

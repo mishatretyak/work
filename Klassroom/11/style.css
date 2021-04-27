@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+div{
+    width: 300px;
+    height: 200px;
+    border: solid 5px black;
+    margin: 40px auto;
+    position: relative;
+}
+div::after{
+    content: "";
+    width: 30px;
+    height: 30px;
+    display: block;
+    transform: rotate(45deg) translate(-50%);
+    position: absolute;
+    left: 50%;
+    top: -5%;
+    background-color: #fff;
+    border-top: 5px solid #000;
+    border-left: 5px solid #000;
+}

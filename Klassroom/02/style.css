@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+.main{
+    width: 600px;
+}
+
+.main>div{
+    background-color: chocolate;
+    overflow:hidden;
+}
+
+div{
+    border: 1px solid black;
+    padding: 25px;
+ 
+}  
+.c3{
+    margin:0 15px 0 15px; 
+   
+}
+.b2>div {
+    width: 27%;
+    float: left;
+    margin: 15PX;
+}
+
+.b3>div{
+    width: 40%;
+    float: left;
+    margin: 15PX;
+}

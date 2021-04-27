@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+body{
+    font-family: arial;
+    font-size: 20px;
+    line-height: 1.5em;
+    text-align: justify;
+
+}
+main{
+    width: 700px;
+    margin: 0 auto;
+    background-color: #555;
+    padding: 20px;
+
+}
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 15px;
+    color: white;
+}
+h2:hover{
+    color: #ccc;
+
+}
+h2::before{
+    content: "***";
+    display: block;
+
+}
+h2::after{
+    content: "";
+    display: block;
+    width: 200px;
+    height: 0px;
+    border-bottom: 1px solid #fff;
+    margin: 10px auto;
+}
