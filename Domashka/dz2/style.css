@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.blok{
+    /* border: 1px solid black; */
+    width: 400px;
+    height: 400px;
+    margin: 20PX auto;
+    overflow: hidden;
+    
+}
+.C1{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 0px 10px 0px 90px;
+    border-radius: 10% 60%;
+}
+.C2{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 0px 10px 0px 210px;
+    border-radius: 60% 10%;
+}
+.C3{
+    border: 1px solid black;
+    width: 300px;
+    height: 300px; 
+    margin: 0 auto;
+    border-radius: 50%;
+}

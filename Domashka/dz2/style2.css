@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    border: 1px solid #000000e0;
+    width: 445px;
+    height: 555px;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 10PX;
+    background-color: #c3c3c3;
+    box-shadow: 2px 2px 5px 0 #000, -1px -1px 0 #c9c9c9, -2px -2px 0 #c6c6c6;
+}
+
+li {
+    border: 1px solid #c6c6c6;
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    list-style-type: none;
+    float: left;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 10PX;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 60PX;
+    -webkit-text-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: rgba(255, 255, 255, 0.5) 0px 3px 3px;
+    cursor: pointer;
+    box-shadow: 2px 2px 3px 0 #000, -2px 0px 0 #fff, -2px -2px 0 #c6c6c6;
+}
+
+.ekran {
+    height: 100px;
+    width: 430px;
+    background-color: #fff;
+    box-shadow: inset 1px 2px 4px 0px #000, -1px -1px 0 #c9c9c9, -2px -2px 0 #c6c6c6;
+}
+
+.C{
+    background-color: rgba(144, 7, 7, 1);
+    color: transparent;
+    text-shadow: rgba(255, 255, 255, 0.44) 0px 3px 3px;
+    cursor: pointer;
+}

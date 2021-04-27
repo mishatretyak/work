@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+body{
+    font-family: arial;
+    font-size: 18px;
+ }
+.menu{
+    width: 800px;
+    height: 100px;
+    margin: 20px auto;
+    background-color: #c7c7c7;
+    border-radius: 5px;
+    color: #fff;
+ }
+.menu>li{ 
+    padding: 65px 0px; 
+    width: 160px;
+    height: 50px;
+    list-style-type: none;
+    float: left;
+    position: relative; 
+    background-repeat: no-repeat;
+    background-position: 50% 10%;
+    margin-top: 5px;
+    border-radius: 5px 5px 0 0;
+}
+.menu>li>a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    text-align: center; 
+    line-height: 40px;
+}  
+.menu>li:hover>a{
+    color: #c7c7c7;
+}
+
+.glavnaya{
+    background-image: url(images/Home.png);
+}
+.glavnaya:hover{
+    background-color: #fff;
+    background-image: url(images/Home_over.png);
+    color: #c7c7c7;
+}
+.novosti{
+    background-image: url(images/News.png);
+    
+}
+.novosti:hover{
+    background-color: #fff;
+    background-image: url(images/News_over.png);
+    color: #c7c7c7;
+}
+.galereya{
+    background-image: url(images/Pictures.png);}
+    
+.galereya:hover{
+    background-color: #fff;
+    background-image: url(images/Pictures_over.png);
+    color: #c7c7c7;
+}
+
+.video{
+    background-image: url(images/Video.png);
+}
+.video:hover{
+    background-color: #fff;
+    background-image: url(images/Video_over.png);
+    color: #c7c7c7;
+}
+
+.contactu{
+    background-image: url(images/Mail.png);}
+    
+.contactu:hover{
+    background-color: #fff;
+    background-image: url(images/Mail_over.png);
+    color: #c7c7c7;
+}
+
+.submenu{
+    display:none;
+    width: 260px;
+    background-color: #fff;
+    border: 1px solid #c7c7c7;
+    box-shadow: 0 0 5px #c7c7c7;
+    position: absolute;
+    top: 77px;
+    left: -20px;
+    border-radius: 5px;
+    z-index: 400;
+}
+.submenu>li:hover{
+    background-color: #c7c7c7;
+}
+.submenu>li{
+    border-bottom: #c7c7c7 solid 1px;
+    list-style-type: none;
+    height: 50px;
+    padding: 13.5px 25px;
+}
+.submenu>li>a{
+    color: #c7c7c7;
+    text-decoration: none; 
+   
+}
+.submenu>li:hover>a{
+    color: #fff;
+    text-decoration: none; 
+}
+
+.menu>li:hover .submenu{
+    display: block;
+}
+.submenu::after{
+    content: "";
+    position: absolute;
+    border-bottom: 10px solid #c7c7c7;
+    border-top: 0px solid transparent;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    left: 94px;
+    top: -10px;
+}
